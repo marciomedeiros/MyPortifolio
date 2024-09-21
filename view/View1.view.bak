@@ -1,0 +1,19 @@
+<mvc:View controllerName="myportifolio.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" 
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:tnt="sap.tnt">
+    <!Page 
+        id="page" 
+        showHeader="false"
+    >
+	<Text text="Simple IconTabHeader" class="sapUiTinyMarginTop sapUiSmallMarginBegin"></Text>    
+        <content>
+	        <tnt:ToolHeader class="sapUiTinyMarginTop sapUiTinyMarginEnd sapUiTinyMarginBegin">            
+              <Title  text="{i18n>title}" />
+              <ToolbarSpacer/>
+              <Avatar/>
+            </tnt:ToolHeader>
+        </content>
+    <!/Page>
+</mvc:View>
